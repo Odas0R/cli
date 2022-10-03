@@ -1,5 +1,5 @@
 build:
-	go build -o cmd ./cmd/main
+	go build -o your_cmd ./cmd/your_cmd/main
 test:
 	# TODO: use what you would like here
 watch:
