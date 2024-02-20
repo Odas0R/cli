@@ -33,6 +33,8 @@ conf := c.Conf{
 }
 ```
 
+Check <https://github.com/thedevsaddam/gojsonq>
+
 ### How do I use this?
 
 1. Clone, fork it as a template

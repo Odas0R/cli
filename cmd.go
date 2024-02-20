@@ -6,13 +6,13 @@ import (
 	"github.com/urfave/cli/v2"
 )
 
-var (
-	conf = Conf{
-		Id:   "run",
-		Dir:  "/home/odas0r/github.com/odas0r/configs",
-		File: "config.json",
-	}
-)
+// var (
+// 	conf = Conf{
+// 		Id:   "run",
+// 		Dir:  "/home/odas0r/github.com/odas0r/configs",
+// 		File: "config.json",
+// 	}
+// )
 
 func App() *cli.App {
 	app := &cli.App{
