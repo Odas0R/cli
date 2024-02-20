@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/odas0r/cmd"
+	"github.com/your_cmd/cmd"
 )
 
 func main() {

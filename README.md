@@ -15,17 +15,6 @@ Simple command line interface template for creating internal CLI's 💻
 ├── go.sum
 ├── LICENSE
 ├── Makefile
-├── pkg
-│   ├── config
-│   │   └── config.go
-│   ├── dir
-│   │   └── dir.go
-│   ├── editor
-│   │   └── editor.go
-│   ├── fs
-│   │   └── fs.go
-│   └── shell
-│       └── shell.go
 └── README.md
 ```
 
@@ -50,8 +39,8 @@ conf := c.Conf{
 2. Replace `your_cmd` dir on `/cmd` to your commands name
 3. Replace `your_cmd` on the `Makefile`
 4. Modify the config _path_ and _filename_
-4. Check the docs on <https://cli.urfave.org/v2/getting-started/>
-5. `make build`
+5. Check the docs on <https://cli.urfave.org/v2/getting-started/>
+6. `make build`
 
 ### How do I have shell completion?
 
@@ -82,14 +71,3 @@ if [[ -x "$(command -v your_cmd)" ]]; then
   complete -o nospace -F _cli_bash_autocomplete your_cmd
 fi
 ```
-
-## References
-
-1. <https://github.com/Odas0R/pomo-cmd>
-
-## Credits
-
-1. <https://github.com/rwxrob/conf>
-2. <https://github.com/rwxrob>
-3. <https://cli.urfave.org/v2/getting-started/>
-4. <https://github.com/thedevsaddam/gojsonq>

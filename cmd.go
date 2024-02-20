@@ -3,13 +3,12 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/odas0r/cmd/pkg/config"
 	"github.com/urfave/cli/v2"
 )
 
 var (
-	conf = config.Conf{
-		Id:   "",
+	conf = Conf{
+		Id:   "run",
 		Dir:  "/home/odas0r/github.com/odas0r/configs",
 		File: "config.json",
 	}
@@ -17,8 +16,7 @@ var (
 
 func App() *cli.App {
 	app := &cli.App{
-		Name:                 "//TODO",
-		Usage:                "//TODO",
+		Name:                 "Run any command on any repo",
 		EnableBashCompletion: true,
 		Commands: []*cli.Command{
 			{

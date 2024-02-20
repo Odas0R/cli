@@ -1,4 +1,4 @@
-module github.com/odas0r/cmd
+module github.com/your_cmd/cmd
 
 go 1.19
 
