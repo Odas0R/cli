@@ -4,7 +4,7 @@ test:
 	# TODO: use what you would like here
 watch:
 	# TODO: use what you would like here
-prepare:
+init:
 	@read -p "Enter the new command name: " newCmdName && \
 	find . -type f -name '*.go' ! -path "./cmd/$$newCmdName/*" -exec sed -i'' -e "s/package cmd/package $$newCmdName/g" {} + && \
 	sed -i'' -e "s/module github.com\/your_cmd/module github.com\/$$newCmdName/g" go.mod && \

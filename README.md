@@ -38,11 +38,8 @@ Check <https://github.com/thedevsaddam/gojsonq>
 ### How do I use this?
 
 1. Clone, fork it as a template
-2. Replace `your_cmd` dir on `/cmd` to your commands name
-3. Replace `your_cmd` on the `Makefile`
-4. Modify the config _path_ and _filename_
-5. Check the docs on <https://cli.urfave.org/v2/getting-started/>
-6. `make build`
+1. Do `make init` and add your command name
+1. go mod download
 
 ### How do I have shell completion?
 

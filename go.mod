@@ -3,9 +3,9 @@ module github.com/your_cmd/cmd
 go 1.19
 
 require (
-	github.com/rogpeppe/go-internal v1.9.0
+	github.com/rogpeppe/go-internal v1.11.0
 	github.com/thedevsaddam/gojsonq/v2 v2.5.2
-	github.com/urfave/cli/v2 v2.16.3
+	github.com/urfave/cli/v2 v2.27.1
 )
 
 require (
